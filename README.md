@@ -1,11 +1,11 @@
 
-#SMART PARKING SERVICE
+# SMART PARKING SERVICE
 
-###Namena aplikacije
+### Namena aplikacije
 
 Smart Parking System je aplikacija koja omogućava korisnicima da pronadju, rezervišu I započnu parkiranje na privatnom parkingu sa kontrolisanim ulazom. Sistem podržava pregled raspoloživih parking mesta u okviru privatnog parkinga, upravljanje rezervacijama, skeniranje QR kodova za identifikaciju parking mesta i ulaza, kao i asinhronu komunikaciju sa simuliranim senzorima o zauzetosti parking mesta.
 
-###Uloge u aplikaciji
+### Uloge u aplikaciji
 •	Neautentifikovani korisnik:
 -	Može da se registruje
 •	Autentifikovani korisnik – Vozač
@@ -18,7 +18,7 @@ Smart Parking System je aplikacija koja omogućava korisnicima da pronadju, reze
 -	Može da upravlja parking mestima
 -	Može da pregleda analitiku
 
-###Funkcionalni zahtevi
+### Funkcionalni zahtevi
 
 1.	Upravljanje korisnicima u aplikaciji
 
@@ -62,7 +62,7 @@ Na profilu se nalazi i deo za pregled istorije parkiranja.
 
   Nakon isteka ovog vremenskog perioda, otkazivanje rezervacije više nije dozvoljeno. Ukoliko korisnik ne iskoristi rezervaciju i ne pojavi se na parkingu u definisanom vremenskom prozoru (npr. do 20 minuta nakon planiranog vremena početka), rezervacija se automatski označava kao istekla i slobodna je opet za rezervaciju.
 
-###Nefunkcionalni zahtevi
+### Nefunkcionalni zahtevi
 
   3.	Arhitektura sistema
 
@@ -74,4 +74,4 @@ Na profilu se nalazi i deo za pregled istorije parkiranja.
   Backend: Rust, PostgreSQL baze, Python (opciono), RabbitMQ, JWT autentifikacija
   Frontend: Angular
 
-#####Dodatno za diplomski bih odabrala nešto od ovoga: Obaveštavanje korisnika nakon 15 dana (ili pri kraju meseca) da odredjeni računi nisu plaćeni; Analiza ponašanja korisnika: prosečno trajanje parkiranja, najčešće vreme rezervacije...; Rekomendacioni sistem za personalizovane predloge rezervacija; Blokiranje korisnika koji je više puta rezervisao, ali se nije pojavio...ili nešto slično
+##### Dodatno za diplomski bih odabrala nešto od ovoga: Obaveštavanje korisnika nakon 15 dana (ili pri kraju meseca) da odredjeni računi nisu plaćeni; Analiza ponašanja korisnika: prosečno trajanje parkiranja, najčešće vreme rezervacije...; Rekomendacioni sistem za personalizovane predloge rezervacija; Blokiranje korisnika koji je više puta rezervisao, ali se nije pojavio...ili nešto slično
