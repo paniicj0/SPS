@@ -71,6 +71,7 @@ Na profilu se nalazi i deo za pregled istorije parkiranja.
   Servisi (otprilike): User Service, Reservation Service, Parking/Gate Service, Billing/Invoice Service, Notification Service (opciono)
 
 4.	Tehnologije
+   
   Backend: Rust, PostgreSQL baze, Python (opciono), RabbitMQ, JWT autentifikacija
   Frontend: Angular
 
