@@ -6,14 +6,20 @@
 Smart Parking System je aplikacija koja omogućava korisnicima da pronadju, rezervišu I započnu parkiranje na privatnom parkingu sa kontrolisanim ulazom. Sistem podržava pregled raspoloživih parking mesta u okviru privatnog parkinga, upravljanje rezervacijama, skeniranje QR kodova za identifikaciju parking mesta i ulaza, kao i asinhronu komunikaciju sa simuliranim senzorima o zauzetosti parking mesta.
 
 ### Uloge u aplikaciji
+
 •	Neautentifikovani korisnik:
+
 -	Može da se registruje
+  
 •	Autentifikovani korisnik – Vozač
+
 -	Ima svoj nalog, može da se prijavi na sistem
 -	Može da vidi sve informacije o parkingu
 -	Može da vidi svoj profil, menja podatke
--	Može da rezerviše/otkaže mesto 
+-	Može da rezerviše/otkaže mesto
+  
 •	Admin
+
 -	Ima svoj nalog, može da se prijavi na sistem
 -	Može da upravlja parking mestima
 -	Može da pregleda analitiku
